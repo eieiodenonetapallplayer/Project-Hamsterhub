@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HandsomePeople Hub</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Welcome to HandsomePeople <i class="ri-home-line icon"></i></h1>
+        <div class="header-decoration"></div>
+    </header>
+    
+    <main class="container">
+        <section class="Box">
+            <h4><a id="googlebox" href="https://www.google.com">Explore with Google</a></h4>
+            <h4 id="talk">พูดไม่ค่อยเก่ง แต่กินหมดจาน</h4>
+            <h1 id="status">Dev Status: Single โสดนั่นเองคร้าบ</h1>
+            <h5 id="Thai">รักไทยล้าน</h5>
+            <img id="Lego" src="https://i.pinimg.com/736x/24/c3/99/24c3992038774eea980c9c12879f358c.jpg" alt="Mario Lego">
+            <button class="view-profile-btn">View Profile</button>
+        </section>
+        
+        <hr>
+        
+        <section class="contact-section">
+            <p>Click to Contact <i class="ri-mail-line icon"></i></p>
+            <div class="contact-link">
+                <a href="https://www.facebook.com/YourPage" target="_blank" id="Boxcontact">
+                    <img src="https://www.wavetransit.com/wp-content/uploads/2021/08/Facebook-logo.png" alt="Facebook" width="80" height="50">
+                </a>
+            </div>
+            <h2 id="border">ส่งข้อความถึงเรา</h2>
+        </section>
+
+        <section class="profile-section" style="display: none;">
+            <div class="profile-header">
+                <span class="profile-tag">&lt;profile&gt;</span>
+            </div>
+            <div class="code-block">
+                <div class="code-line">
+                    <span class="code-keyword">const</span>
+                    <span class="code-variable"> developerInfo</span>
+                    <span class="code-symbol">=</span>
+                    <span class="code-bracket">{</span>
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-key">name</span>
+                    <span class="code-symbol">:</span>
+                    <span class="code-value">"Coey Stepthep"</span>,
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-key">role</span>
+                    <span class="code-symbol">:</span>
+                    <span class="code-value">"Software Developer"</span>,
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-key">skills</span>
+                    <span class="code-symbol">:</span>
+                    <span class="code-bracket">[</span>
+                    <span class="code-value">"React"</span>,
+                    <span class="code-value">"Node.js"</span>,
+                    <span class="code-value">"Python"</span>
+                    <span class="code-bracket">]</span>,
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-key">contact</span>
+                    <span class="code-symbol">:</span>
+                    <span class="code-value">"<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e38a82828d99855c8e">[email&#160;protected]</a>"</span>
+                </div>
+                <div class="code-line">
+                    <span class="code-bracket">}</span>;
+                </div>
+            </div>
+            <div class="profile-footer">
+                <span class="profile-tag">&lt;/profile&gt;</span>
+                <span class="cursor-blink">|</span>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a href="https://codepen.io" target="_blank" class="social-link">
+                    <i class="ri-codepen-line"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>© 2025 HandsomePeople. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Toggle profile section
+        document.querySelector('.view-profile-btn').addEventListener('click', function() {
+            const profileSection = document.querySelector('.profile-section');
+            profileSection.style.display = profileSection.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // Cloudflare script
+        (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93a8ae8e8d78adb9',t:'MTc0NjM2ODg3Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+    </script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+</html>
